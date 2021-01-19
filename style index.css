@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,4 +18,56 @@ h1{
 }
 .half-width img{
     width:100%;
+}
+
+
+
+.top-banner{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.clear-div{
+    clear:both;
+}
+
+.button-color{
+    margin-top: 10px;
+    background-image: linear-gradient(45deg, orange,red);
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+
+}
+.right-banner{
+    
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.right-banner div{
+    
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#left-color-border{
+
+    border-image: linear-gradient(180deg, gold, rgb(233, 56, 25));
+    border-left: 7px solid;
+    border-image-slice: 1;
+
+}
+#right-color-border{
+
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+
 }
